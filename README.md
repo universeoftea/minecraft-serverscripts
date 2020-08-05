@@ -10,6 +10,8 @@ To manage the minecraft server, please log in as the minecraft user created by t
 
 When the server is running, the serverconsole can be reached by executing *screen -r -d -S minecraft-server*
 
+When the server starts it copies itself to $SERVERPATH/live from $SERVERPATH/static, this is intentional even though it adds on to startup and stopping times. This is so that servers that has a lot of RAM can mount $SERVERPATH/live as a tmpfs (virtual disk in RAM) to increase performance. This can be done by modifying /etc/fstab accordingly. Since this is an advanced OS modification, might not be possible on all systems, and ramdisk size might vary wildly, it is up to the administrator to do this manually. Do not do this unless you know how ramdisks and tmpfs in Linux works, it can make your OS unbootable!
+
 ### COPYRIGHT & LICENSE ###
 
     *minecraft* is not affiliated with this program.
