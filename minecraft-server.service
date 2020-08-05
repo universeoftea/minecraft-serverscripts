@@ -6,7 +6,7 @@ After=multi-user.target
 Type=simple
 User=minecraft
 Group=minecraft
-ExecStart=/usr/local/bin/minecraft-server.sh
+ExecStart=/usr/local/bin/minecraft-server.sh start
 TimeoutStartSec=0
 RemainAfterExit=yes
 
