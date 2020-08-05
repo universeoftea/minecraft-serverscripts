@@ -1,6 +1,10 @@
 # minecraft-serverscripts
 Server scripts for running a headless minecraft server on Linux.
 
+Depends on:
+    *rsync*
+    *screen*
+
 ### COPYRIGHT & LICENSE ###
 
     *minecraft* is not affiliated with this program.

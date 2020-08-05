@@ -1,0 +1,14 @@
+[Unit]
+Description=Minecraft server
+After=multi-user.target
+
+[Service]
+Type=simple
+User=minecraft
+Group=minecraft
+ExecStart=/usr/local/bin/minecraft-server.sh
+TimeoutStartSec=0
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target
