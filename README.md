@@ -2,8 +2,13 @@
 Server scripts for running a headless minecraft server on Linux.
 
 Depends on:
-    *rsync*
-    *screen*
+*rsync*
+*screen*
+*systemd*
+
+To manage the minecraft server, please log in as the minecraft user created by the install script.
+
+When the server is running, the serverconsole can be reached by executing *screen -r -d -S minecraft-server*
 
 ### COPYRIGHT & LICENSE ###
 
