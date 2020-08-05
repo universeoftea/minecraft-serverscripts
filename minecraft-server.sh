@@ -1,7 +1,7 @@
 #!/bin/bash
-BACKUPTIME=10
+BACKUPTIME=7
 SERVERPATH=/var/minecraft-server
-BACKUPPATH=/mnt/data/minecraft-server
+BACKUPPATH=/home/minecraft
 MEMOPTS=8G
 
 start-server()
