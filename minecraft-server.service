@@ -8,6 +8,7 @@ User=minecraft
 Group=minecraft
 ExecStart=/usr/local/bin/minecraft-server.sh start
 TimeoutStartSec=0
+TimeoutStopSec=30
 RemainAfterExit=yes
 
 [Install]
